@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ToastUI",
+        "repositoryURL": "https://github.com/quanshousio/ToastUI",
+        "state": {
+          "branch": null,
+          "revision": "b064788dd92a64fbd01208a65af10beded99062c",
+          "version": "3.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

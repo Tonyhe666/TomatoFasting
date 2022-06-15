@@ -7,10 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341E20832859527B004D3F69 /* ToastUI in Frameworks */ = {isa = PBXBuildFile; productRef = 341E20822859527B004D3F69 /* ToastUI */; };
 		342A9D5B2855E06B00F6D673 /* TomatoFastingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D5A2855E06B00F6D673 /* TomatoFastingApp.swift */; };
 		342A9D5D2855E06B00F6D673 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D5C2855E06B00F6D673 /* ContentView.swift */; };
 		342A9D5F2855E06F00F6D673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342A9D5E2855E06F00F6D673 /* Assets.xcassets */; };
 		342A9D622855E06F00F6D673 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342A9D612855E06F00F6D673 /* Preview Assets.xcassets */; };
+		342A9D692855E0CC00F6D673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D682855E0CC00F6D673 /* AppDelegate.swift */; };
+		342A9D6C2855E3BC00F6D673 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D6B2855E3BC00F6D673 /* Store.swift */; };
+		342A9D6E2855E3D100F6D673 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D6D2855E3D100F6D673 /* AppState.swift */; };
+		342A9D702855E77D00F6D673 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D6F2855E77D00F6D673 /* AppAction.swift */; };
+		342A9D722855EE3900F6D673 /* AppCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D712855EE3900F6D673 /* AppCommand.swift */; };
+		342A9D742855EFC400F6D673 /* SubscriptionToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D732855EFC400F6D673 /* SubscriptionToken.swift */; };
+		342A9D7A2856A8E500F6D673 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D792856A8E500F6D673 /* MainTabView.swift */; };
+		342A9D7E2856AA5E00F6D673 /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D7D2856AA5E00F6D673 /* TabModel.swift */; };
+		342A9D82285769FE00F6D673 /* PlanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D81285769FE00F6D673 /* PlanListView.swift */; };
+		342A9D8428576A1E00F6D673 /* DailyFastingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D8328576A1E00F6D673 /* DailyFastingView.swift */; };
+		342A9D8628576A3100F6D673 /* WeeklyFastingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D8528576A3100F6D673 /* WeeklyFastingView.swift */; };
+		342A9D8828576A4700F6D673 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D8728576A4700F6D673 /* RecordView.swift */; };
+		342A9D8A28576A5400F6D673 /* TrendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D8928576A5400F6D673 /* TrendView.swift */; };
+		342A9D8C28576E3E00F6D673 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D8B28576E3E00F6D673 /* Color+Extension.swift */; };
+		342A9D8F2857772800F6D673 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D8E2857772800F6D673 /* UIColor+Extension.swift */; };
+		342A9D9228578BBF00F6D673 /* DailyPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D9128578BBE00F6D673 /* DailyPlanView.swift */; };
+		342A9D9428578F6700F6D673 /* KnowledgeLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D9328578F6700F6D673 /* KnowledgeLib.swift */; };
+		342A9D962858BA2800F6D673 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D952858BA2800F6D673 /* NavigationBar.swift */; };
+		342A9D982858BAD000F6D673 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D972858BAD000F6D673 /* AnimatableFontModifier.swift */; };
+		342A9D9A2858C1E600F6D673 /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D992858C1E600F6D673 /* PreferenceKey.swift */; };
+		342A9D9D2858D17900F6D673 /* OffsetYModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D9C2858D17900F6D673 /* OffsetYModifier.swift */; };
+		342A9D9F2858DC2C00F6D673 /* PlanListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D9E2858DC2C00F6D673 /* PlanListModel.swift */; };
+		342A9DA2285949C800F6D673 /* PlanListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9DA1285949C800F6D673 /* PlanListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +43,30 @@
 		342A9D5C2855E06B00F6D673 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		342A9D5E2855E06F00F6D673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342A9D612855E06F00F6D673 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		342A9D682855E0CC00F6D673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		342A9D6A2855E11C00F6D673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		342A9D6B2855E3BC00F6D673 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		342A9D6D2855E3D100F6D673 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		342A9D6F2855E77D00F6D673 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		342A9D712855EE3900F6D673 /* AppCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommand.swift; sourceTree = "<group>"; };
+		342A9D732855EFC400F6D673 /* SubscriptionToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionToken.swift; sourceTree = "<group>"; };
+		342A9D792856A8E500F6D673 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		342A9D7D2856AA5E00F6D673 /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		342A9D81285769FE00F6D673 /* PlanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListView.swift; sourceTree = "<group>"; };
+		342A9D8328576A1E00F6D673 /* DailyFastingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFastingView.swift; sourceTree = "<group>"; };
+		342A9D8528576A3100F6D673 /* WeeklyFastingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyFastingView.swift; sourceTree = "<group>"; };
+		342A9D8728576A4700F6D673 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		342A9D8928576A5400F6D673 /* TrendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendView.swift; sourceTree = "<group>"; };
+		342A9D8B28576E3E00F6D673 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		342A9D8E2857772800F6D673 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		342A9D9128578BBE00F6D673 /* DailyPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlanView.swift; sourceTree = "<group>"; };
+		342A9D9328578F6700F6D673 /* KnowledgeLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeLib.swift; sourceTree = "<group>"; };
+		342A9D952858BA2800F6D673 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		342A9D972858BAD000F6D673 /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
+		342A9D992858C1E600F6D673 /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
+		342A9D9C2858D17900F6D673 /* OffsetYModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetYModifier.swift; sourceTree = "<group>"; };
+		342A9D9E2858DC2C00F6D673 /* PlanListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListModel.swift; sourceTree = "<group>"; };
+		342A9DA1285949C800F6D673 /* PlanListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341E20832859527B004D3F69 /* ToastUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +100,16 @@
 		342A9D592855E06B00F6D673 /* TomatoFasting */ = {
 			isa = PBXGroup;
 			children = (
-				342A9D5A2855E06B00F6D673 /* TomatoFastingApp.swift */,
+				342A9D752856A87B00F6D673 /* Redux */,
+				342A9D7C2856AA2700F6D673 /* Model */,
+				342A9D7B2856AA1300F6D673 /* Views */,
 				342A9D5C2855E06B00F6D673 /* ContentView.swift */,
 				342A9D5E2855E06F00F6D673 /* Assets.xcassets */,
+				342A9D6A2855E11C00F6D673 /* Info.plist */,
 				342A9D602855E06F00F6D673 /* Preview Content */,
+				342A9D5A2855E06B00F6D673 /* TomatoFastingApp.swift */,
+				342A9D682855E0CC00F6D673 /* AppDelegate.swift */,
+				342A9D8D2857770D00F6D673 /* Extension */,
 			);
 			path = TomatoFasting;
 			sourceTree = "<group>";
@@ -65,6 +120,88 @@
 				342A9D612855E06F00F6D673 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		342A9D752856A87B00F6D673 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D732855EFC400F6D673 /* SubscriptionToken.swift */,
+				342A9D6B2855E3BC00F6D673 /* Store.swift */,
+				342A9D6D2855E3D100F6D673 /* AppState.swift */,
+				342A9D6F2855E77D00F6D673 /* AppAction.swift */,
+				342A9D712855EE3900F6D673 /* AppCommand.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		342A9D762856A89E00F6D673 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D792856A8E500F6D673 /* MainTabView.swift */,
+				342A9D8328576A1E00F6D673 /* DailyFastingView.swift */,
+				342A9D8528576A3100F6D673 /* WeeklyFastingView.swift */,
+				342A9D8728576A4700F6D673 /* RecordView.swift */,
+				342A9D8928576A5400F6D673 /* TrendView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		342A9D7B2856AA1300F6D673 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				342A9DA02859497C00F6D673 /* Planlist */,
+				342A9D9028578B8D00F6D673 /* Components */,
+				342A9D762856A89E00F6D673 /* Main */,
+				342A9D9B2858D14900F6D673 /* Style */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		342A9D7C2856AA2700F6D673 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D7D2856AA5E00F6D673 /* TabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		342A9D8D2857770D00F6D673 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D8B28576E3E00F6D673 /* Color+Extension.swift */,
+				342A9D8E2857772800F6D673 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		342A9D9028578B8D00F6D673 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D9128578BBE00F6D673 /* DailyPlanView.swift */,
+				342A9D9328578F6700F6D673 /* KnowledgeLib.swift */,
+				342A9D952858BA2800F6D673 /* NavigationBar.swift */,
+				342A9D992858C1E600F6D673 /* PreferenceKey.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		342A9D9B2858D14900F6D673 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D972858BAD000F6D673 /* AnimatableFontModifier.swift */,
+				342A9D9C2858D17900F6D673 /* OffsetYModifier.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		342A9DA02859497C00F6D673 /* Planlist */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D9E2858DC2C00F6D673 /* PlanListModel.swift */,
+				342A9D81285769FE00F6D673 /* PlanListView.swift */,
+				342A9DA1285949C800F6D673 /* PlanListViewModel.swift */,
+			);
+			path = Planlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +220,9 @@
 			dependencies = (
 			);
 			name = TomatoFasting;
+			packageProductDependencies = (
+				341E20822859527B004D3F69 /* ToastUI */,
+			);
 			productName = TomatoFasting;
 			productReference = 342A9D572855E06B00F6D673 /* TomatoFasting.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +251,9 @@
 				Base,
 			);
 			mainGroup = 342A9D4E2855E06B00F6D673;
+			packageReferences = (
+				341E20812859527B004D3F69 /* XCRemoteSwiftPackageReference "ToastUI" */,
+			);
 			productRefGroup = 342A9D582855E06B00F6D673 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +280,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342A9D742855EFC400F6D673 /* SubscriptionToken.swift in Sources */,
+				342A9D692855E0CC00F6D673 /* AppDelegate.swift in Sources */,
+				342A9D702855E77D00F6D673 /* AppAction.swift in Sources */,
+				342A9D8828576A4700F6D673 /* RecordView.swift in Sources */,
+				342A9DA2285949C800F6D673 /* PlanListViewModel.swift in Sources */,
+				342A9D8F2857772800F6D673 /* UIColor+Extension.swift in Sources */,
+				342A9D982858BAD000F6D673 /* AnimatableFontModifier.swift in Sources */,
+				342A9D9D2858D17900F6D673 /* OffsetYModifier.swift in Sources */,
+				342A9D9428578F6700F6D673 /* KnowledgeLib.swift in Sources */,
+				342A9D722855EE3900F6D673 /* AppCommand.swift in Sources */,
+				342A9D8628576A3100F6D673 /* WeeklyFastingView.swift in Sources */,
+				342A9D7A2856A8E500F6D673 /* MainTabView.swift in Sources */,
+				342A9D8C28576E3E00F6D673 /* Color+Extension.swift in Sources */,
+				342A9D8A28576A5400F6D673 /* TrendView.swift in Sources */,
+				342A9D9A2858C1E600F6D673 /* PreferenceKey.swift in Sources */,
+				342A9D6E2855E3D100F6D673 /* AppState.swift in Sources */,
+				342A9D82285769FE00F6D673 /* PlanListView.swift in Sources */,
 				342A9D5D2855E06B00F6D673 /* ContentView.swift in Sources */,
 				342A9D5B2855E06B00F6D673 /* TomatoFastingApp.swift in Sources */,
+				342A9D962858BA2800F6D673 /* NavigationBar.swift in Sources */,
+				342A9D6C2855E3BC00F6D673 /* Store.swift in Sources */,
+				342A9D9228578BBF00F6D673 /* DailyPlanView.swift in Sources */,
+				342A9D7E2856AA5E00F6D673 /* TabModel.swift in Sources */,
+				342A9D9F2858DC2C00F6D673 /* PlanListModel.swift in Sources */,
+				342A9D8428576A1E00F6D673 /* DailyFastingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,21 +438,24 @@
 				DEVELOPMENT_TEAM = 557XVFP8A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TomatoFasting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.luckydance.TomatoFasting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luckydance.fasting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,21 +470,24 @@
 				DEVELOPMENT_TEAM = 557XVFP8A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TomatoFasting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.luckydance.TomatoFasting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luckydance.fasting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +513,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		341E20812859527B004D3F69 /* XCRemoteSwiftPackageReference "ToastUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quanshousio/ToastUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		341E20822859527B004D3F69 /* ToastUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 341E20812859527B004D3F69 /* XCRemoteSwiftPackageReference "ToastUI" */;
+			productName = ToastUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 342A9D4F2855E06B00F6D673 /* Project object */;
 }
