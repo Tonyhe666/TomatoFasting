@@ -19,4 +19,7 @@ enum AppAction {
     case login(phoneNumber: String, verifyCode: String) // 异步操作,所以对应有一个登录完成
     case loginComplete(Result<User, AppError>)
     case logout
+    
+    case showTabBar(show: Bool)
+    case showFasting(show: Bool)
 }

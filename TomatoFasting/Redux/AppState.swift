@@ -9,6 +9,7 @@ import Foundation
 
 struct AppState {
     var settings = Settings()
+    var tabBar =  TabBar()
     
 }
 

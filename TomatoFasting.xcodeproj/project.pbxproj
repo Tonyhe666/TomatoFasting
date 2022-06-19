@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340604D7285A1987007D172D /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = 340604D6285A1987007D172D /* ACarousel */; };
+		340604D9285A2661007D172D /* PlanListBannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340604D8285A2661007D172D /* PlanListBannerModel.swift */; };
+		340604DB285A29BE007D172D /* PlanListBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340604DA285A29BE007D172D /* PlanListBannerView.swift */; };
 		341E20832859527B004D3F69 /* ToastUI in Frameworks */ = {isa = PBXBuildFile; productRef = 341E20822859527B004D3F69 /* ToastUI */; };
 		342A9D5B2855E06B00F6D673 /* TomatoFastingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D5A2855E06B00F6D673 /* TomatoFastingApp.swift */; };
-		342A9D5D2855E06B00F6D673 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D5C2855E06B00F6D673 /* ContentView.swift */; };
 		342A9D5F2855E06F00F6D673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342A9D5E2855E06F00F6D673 /* Assets.xcassets */; };
 		342A9D622855E06F00F6D673 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342A9D612855E06F00F6D673 /* Preview Assets.xcassets */; };
 		342A9D692855E0CC00F6D673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D682855E0CC00F6D673 /* AppDelegate.swift */; };
@@ -27,7 +29,7 @@
 		342A9D8A28576A5400F6D673 /* TrendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D8928576A5400F6D673 /* TrendView.swift */; };
 		342A9D8C28576E3E00F6D673 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D8B28576E3E00F6D673 /* Color+Extension.swift */; };
 		342A9D8F2857772800F6D673 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D8E2857772800F6D673 /* UIColor+Extension.swift */; };
-		342A9D9228578BBF00F6D673 /* DailyPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D9128578BBE00F6D673 /* DailyPlanView.swift */; };
+		342A9D9228578BBF00F6D673 /* PlanUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D9128578BBE00F6D673 /* PlanUnitView.swift */; };
 		342A9D9428578F6700F6D673 /* KnowledgeLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D9328578F6700F6D673 /* KnowledgeLib.swift */; };
 		342A9D962858BA2800F6D673 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D952858BA2800F6D673 /* NavigationBar.swift */; };
 		342A9D982858BAD000F6D673 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D972858BAD000F6D673 /* AnimatableFontModifier.swift */; };
@@ -35,12 +37,20 @@
 		342A9D9D2858D17900F6D673 /* OffsetYModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D9C2858D17900F6D673 /* OffsetYModifier.swift */; };
 		342A9D9F2858DC2C00F6D673 /* PlanListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9D9E2858DC2C00F6D673 /* PlanListModel.swift */; };
 		342A9DA2285949C800F6D673 /* PlanListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A9DA1285949C800F6D673 /* PlanListViewModel.swift */; };
+		348DBFA8285EFC480053F045 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DBFA7285EFC480053F045 /* TitleModifier.swift */; };
+		348DBFB0285EFF700053F045 /* ScrollDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DBFAF285EFF700053F045 /* ScrollDetection.swift */; };
+		348DBFB2285F0B750053F045 /* FastingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DBFB1285F0B750053F045 /* FastingHeaderView.swift */; };
+		348DBFB4285F20770053F045 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DBFB3285F20770053F045 /* TabBarView.swift */; };
+		348DBFB6285F22E20053F045 /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DBFB5285F22E20053F045 /* TabBarItemView.swift */; };
+		348DBFB8285F33A80053F045 /* NavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DBFB7285F33A80053F045 /* NavigationController+Extension.swift */; };
+		34E61DF8285EB7DF001B440D /* PlanListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E61DF7285EB7DF001B440D /* PlanListHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340604D8285A2661007D172D /* PlanListBannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListBannerModel.swift; sourceTree = "<group>"; };
+		340604DA285A29BE007D172D /* PlanListBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListBannerView.swift; sourceTree = "<group>"; };
 		342A9D572855E06B00F6D673 /* TomatoFasting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoFasting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342A9D5A2855E06B00F6D673 /* TomatoFastingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFastingApp.swift; sourceTree = "<group>"; };
-		342A9D5C2855E06B00F6D673 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		342A9D5E2855E06F00F6D673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342A9D612855E06F00F6D673 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		342A9D682855E0CC00F6D673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +69,7 @@
 		342A9D8928576A5400F6D673 /* TrendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendView.swift; sourceTree = "<group>"; };
 		342A9D8B28576E3E00F6D673 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		342A9D8E2857772800F6D673 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		342A9D9128578BBE00F6D673 /* DailyPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlanView.swift; sourceTree = "<group>"; };
+		342A9D9128578BBE00F6D673 /* PlanUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanUnitView.swift; sourceTree = "<group>"; };
 		342A9D9328578F6700F6D673 /* KnowledgeLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeLib.swift; sourceTree = "<group>"; };
 		342A9D952858BA2800F6D673 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		342A9D972858BAD000F6D673 /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
@@ -67,6 +77,13 @@
 		342A9D9C2858D17900F6D673 /* OffsetYModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetYModifier.swift; sourceTree = "<group>"; };
 		342A9D9E2858DC2C00F6D673 /* PlanListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListModel.swift; sourceTree = "<group>"; };
 		342A9DA1285949C800F6D673 /* PlanListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListViewModel.swift; sourceTree = "<group>"; };
+		348DBFA7285EFC480053F045 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		348DBFAF285EFF700053F045 /* ScrollDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollDetection.swift; sourceTree = "<group>"; };
+		348DBFB1285F0B750053F045 /* FastingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingHeaderView.swift; sourceTree = "<group>"; };
+		348DBFB3285F20770053F045 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		348DBFB5285F22E20053F045 /* TabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemView.swift; sourceTree = "<group>"; };
+		348DBFB7285F33A80053F045 /* NavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationController+Extension.swift"; sourceTree = "<group>"; };
+		34E61DF7285EB7DF001B440D /* PlanListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				340604D7285A1987007D172D /* ACarousel in Frameworks */,
 				341E20832859527B004D3F69 /* ToastUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +99,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340604DC285A9F58007D172D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				340604D8285A2661007D172D /* PlanListBannerModel.swift */,
+				342A9D9E2858DC2C00F6D673 /* PlanListModel.swift */,
+				34E61DF7285EB7DF001B440D /* PlanListHeaderView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		342A9D4E2855E06B00F6D673 = {
 			isa = PBXGroup;
 			children = (
@@ -102,8 +130,7 @@
 			children = (
 				342A9D752856A87B00F6D673 /* Redux */,
 				342A9D7C2856AA2700F6D673 /* Model */,
-				342A9D7B2856AA1300F6D673 /* Views */,
-				342A9D5C2855E06B00F6D673 /* ContentView.swift */,
+				342A9D7B2856AA1300F6D673 /* UI */,
 				342A9D5E2855E06F00F6D673 /* Assets.xcassets */,
 				342A9D6A2855E11C00F6D673 /* Info.plist */,
 				342A9D602855E06F00F6D673 /* Preview Content */,
@@ -137,30 +164,28 @@
 		342A9D762856A89E00F6D673 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				342A9D792856A8E500F6D673 /* MainTabView.swift */,
-				342A9D8328576A1E00F6D673 /* DailyFastingView.swift */,
-				342A9D8528576A3100F6D673 /* WeeklyFastingView.swift */,
-				342A9D8728576A4700F6D673 /* RecordView.swift */,
-				342A9D8928576A5400F6D673 /* TrendView.swift */,
+				348DBFA9285EFCDD0053F045 /* Model */,
+				348DBFAA285EFCF00053F045 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		342A9D7B2856AA1300F6D673 /* Views */ = {
+		342A9D7B2856AA1300F6D673 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				342A9DA02859497C00F6D673 /* Planlist */,
+				348DBFAE285EFE990053F045 /* WeeklyPlan */,
+				348DBFAD285EFE8B0053F045 /* DailyPlan */,
 				342A9D9028578B8D00F6D673 /* Components */,
+				342A9DA02859497C00F6D673 /* Planlist */,
 				342A9D762856A89E00F6D673 /* Main */,
 				342A9D9B2858D14900F6D673 /* Style */,
 			);
-			path = Views;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		342A9D7C2856AA2700F6D673 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				342A9D7D2856AA5E00F6D673 /* TabModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +195,7 @@
 			children = (
 				342A9D8B28576E3E00F6D673 /* Color+Extension.swift */,
 				342A9D8E2857772800F6D673 /* UIColor+Extension.swift */,
+				348DBFB7285F33A80053F045 /* NavigationController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -177,10 +203,12 @@
 		342A9D9028578B8D00F6D673 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				342A9D9128578BBE00F6D673 /* DailyPlanView.swift */,
-				342A9D9328578F6700F6D673 /* KnowledgeLib.swift */,
 				342A9D952858BA2800F6D673 /* NavigationBar.swift */,
 				342A9D992858C1E600F6D673 /* PreferenceKey.swift */,
+				348DBFAF285EFF700053F045 /* ScrollDetection.swift */,
+				348DBFB1285F0B750053F045 /* FastingHeaderView.swift */,
+				348DBFB3285F20770053F045 /* TabBarView.swift */,
+				348DBFB5285F22E20053F045 /* TabBarItemView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -190,6 +218,7 @@
 			children = (
 				342A9D972858BAD000F6D673 /* AnimatableFontModifier.swift */,
 				342A9D9C2858D17900F6D673 /* OffsetYModifier.swift */,
+				348DBFA7285EFC480053F045 /* TitleModifier.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -197,11 +226,64 @@
 		342A9DA02859497C00F6D673 /* Planlist */ = {
 			isa = PBXGroup;
 			children = (
-				342A9D9E2858DC2C00F6D673 /* PlanListModel.swift */,
-				342A9D81285769FE00F6D673 /* PlanListView.swift */,
-				342A9DA1285949C800F6D673 /* PlanListViewModel.swift */,
+				340604DC285A9F58007D172D /* Model */,
+				348DBFAB285EFD0E0053F045 /* View */,
+				348DBFAC285EFD180053F045 /* ViewModel */,
 			);
 			path = Planlist;
+			sourceTree = "<group>";
+		};
+		348DBFA9285EFCDD0053F045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D7D2856AA5E00F6D673 /* TabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		348DBFAA285EFCF00053F045 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D792856A8E500F6D673 /* MainTabView.swift */,
+				342A9D8728576A4700F6D673 /* RecordView.swift */,
+				342A9D8928576A5400F6D673 /* TrendView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		348DBFAB285EFD0E0053F045 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D81285769FE00F6D673 /* PlanListView.swift */,
+				342A9D9328578F6700F6D673 /* KnowledgeLib.swift */,
+				342A9D9128578BBE00F6D673 /* PlanUnitView.swift */,
+				340604DA285A29BE007D172D /* PlanListBannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		348DBFAC285EFD180053F045 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				342A9DA1285949C800F6D673 /* PlanListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		348DBFAD285EFE8B0053F045 /* DailyPlan */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D8328576A1E00F6D673 /* DailyFastingView.swift */,
+			);
+			path = DailyPlan;
+			sourceTree = "<group>";
+		};
+		348DBFAE285EFE990053F045 /* WeeklyPlan */ = {
+			isa = PBXGroup;
+			children = (
+				342A9D8528576A3100F6D673 /* WeeklyFastingView.swift */,
+			);
+			path = WeeklyPlan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +304,7 @@
 			name = TomatoFasting;
 			packageProductDependencies = (
 				341E20822859527B004D3F69 /* ToastUI */,
+				340604D6285A1987007D172D /* ACarousel */,
 			);
 			productName = TomatoFasting;
 			productReference = 342A9D572855E06B00F6D673 /* TomatoFasting.app */;
@@ -253,6 +336,7 @@
 			mainGroup = 342A9D4E2855E06B00F6D673;
 			packageReferences = (
 				341E20812859527B004D3F69 /* XCRemoteSwiftPackageReference "ToastUI" */,
+				340604D5285A1987007D172D /* XCRemoteSwiftPackageReference "ACarousel" */,
 			);
 			productRefGroup = 342A9D582855E06B00F6D673 /* Products */;
 			projectDirPath = "";
@@ -285,9 +369,12 @@
 				342A9D702855E77D00F6D673 /* AppAction.swift in Sources */,
 				342A9D8828576A4700F6D673 /* RecordView.swift in Sources */,
 				342A9DA2285949C800F6D673 /* PlanListViewModel.swift in Sources */,
+				348DBFB6285F22E20053F045 /* TabBarItemView.swift in Sources */,
 				342A9D8F2857772800F6D673 /* UIColor+Extension.swift in Sources */,
 				342A9D982858BAD000F6D673 /* AnimatableFontModifier.swift in Sources */,
+				348DBFA8285EFC480053F045 /* TitleModifier.swift in Sources */,
 				342A9D9D2858D17900F6D673 /* OffsetYModifier.swift in Sources */,
+				348DBFB4285F20770053F045 /* TabBarView.swift in Sources */,
 				342A9D9428578F6700F6D673 /* KnowledgeLib.swift in Sources */,
 				342A9D722855EE3900F6D673 /* AppCommand.swift in Sources */,
 				342A9D8628576A3100F6D673 /* WeeklyFastingView.swift in Sources */,
@@ -296,14 +383,19 @@
 				342A9D8A28576A5400F6D673 /* TrendView.swift in Sources */,
 				342A9D9A2858C1E600F6D673 /* PreferenceKey.swift in Sources */,
 				342A9D6E2855E3D100F6D673 /* AppState.swift in Sources */,
+				340604D9285A2661007D172D /* PlanListBannerModel.swift in Sources */,
 				342A9D82285769FE00F6D673 /* PlanListView.swift in Sources */,
-				342A9D5D2855E06B00F6D673 /* ContentView.swift in Sources */,
 				342A9D5B2855E06B00F6D673 /* TomatoFastingApp.swift in Sources */,
 				342A9D962858BA2800F6D673 /* NavigationBar.swift in Sources */,
+				340604DB285A29BE007D172D /* PlanListBannerView.swift in Sources */,
+				348DBFB2285F0B750053F045 /* FastingHeaderView.swift in Sources */,
+				348DBFB0285EFF700053F045 /* ScrollDetection.swift in Sources */,
+				34E61DF8285EB7DF001B440D /* PlanListHeaderView.swift in Sources */,
 				342A9D6C2855E3BC00F6D673 /* Store.swift in Sources */,
-				342A9D9228578BBF00F6D673 /* DailyPlanView.swift in Sources */,
+				342A9D9228578BBF00F6D673 /* PlanUnitView.swift in Sources */,
 				342A9D7E2856AA5E00F6D673 /* TabModel.swift in Sources */,
 				342A9D9F2858DC2C00F6D673 /* PlanListModel.swift in Sources */,
+				348DBFB8285F33A80053F045 /* NavigationController+Extension.swift in Sources */,
 				342A9D8428576A1E00F6D673 /* DailyFastingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +607,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		340604D5285A1987007D172D /* XCRemoteSwiftPackageReference "ACarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JWAutumn/ACarousel";
+			requirement = {
+				kind = exactVersion;
+				version = 0.2.0;
+			};
+		};
 		341E20812859527B004D3F69 /* XCRemoteSwiftPackageReference "ToastUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/quanshousio/ToastUI";
@@ -526,6 +626,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		340604D6285A1987007D172D /* ACarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 340604D5285A1987007D172D /* XCRemoteSwiftPackageReference "ACarousel" */;
+			productName = ACarousel;
+		};
 		341E20822859527B004D3F69 /* ToastUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 341E20812859527B004D3F69 /* XCRemoteSwiftPackageReference "ToastUI" */;

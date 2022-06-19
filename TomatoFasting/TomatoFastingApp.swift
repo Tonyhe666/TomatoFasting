@@ -29,7 +29,7 @@ struct TomatoFastingApp: App {
                     case .inactive:
                         debugPrint("app .inactive")
                     case .active:
-                        debugPrint("app .actice")
+                        debugPrint("app .active")
                     @unknown default:
                         debugPrint("app .unknown")
                     }

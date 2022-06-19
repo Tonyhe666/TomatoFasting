@@ -54,6 +54,10 @@ class Store: ObservableObject {
             case .failure(let error):
                 debugPrint(error)
             }
+        case .showTabBar(let show):
+            appState.tabBar.isShowTab = show
+        case .showFasting(let show):
+            appState.tabBar.isShowFasting = show
         }
         return (appState, appCommond) // 此处有待商榷, 因为@Published修饰的变量,发生变化时候,Combine会通知订阅者,此处返回的意义,感觉不是很大.
     }
